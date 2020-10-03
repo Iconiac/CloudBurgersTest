@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	padding: 0;
+	margin: 0;
+	font-family: Arial, san-serif;
+	font-size: medium;
+	line-height: 1.5;
+}
+
+.navigation
+{
+	background-color: #f4f4f4;
+	padding-right: 10%;
+	padding-left: 10%;
+	padding-top: 10px;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+nav li
+{
+	text-align: right;
+	font-size: 150%;
+	display: inline;
+}
+
+#logo
+{
+	height: 60px;
+}
+
+#home_first
+{
+	margin: 80px 0px 0px 0px;
+	text-align: right;
+	padding-right: 10%;
+	padding-left: auto;
+	padding-top: 100px;
+	background: url(../images/background_home.jpg) no-repeat 0 -500px;
+	background-size: cover;
+	height: 500px;
+	color: #ffffff;
+	border-top: medium black;
+}
+
+#main
+{
+	font-size: 300%;
+}
+
+#subtitle
+{
+	//
+}
+
+header #header_right
+{
+	position: absolute;
+	top: 10px;
+	right: 10%;
+}
+
+header #header_left
+{
+	position: absolute;
+	top: 10px;
+	left: 10%;
+}
